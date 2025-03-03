@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Syncopate:wght@400;700&display=swap');
+
+body {
+  background-image: url('../images/bg.jpeg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#title h1 {
+  color: #FFFFFF;
+  font-family: "Syncopate", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#links a {
+  color: #FFFFFF;
+  margin: 0 1rem;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+#links a img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1rem;
+  vertical-align: middle;
+}
+
+#player {
+  position: fixed;
+  bottom: -246px;
+  right: 0px;
+  padding: 10px;
+  transition: bottom ease 0.1s;
+}
+
+#player p {
+  margin: 0;
+}
+
+#player:hover {
+  bottom: 0px;
+}
